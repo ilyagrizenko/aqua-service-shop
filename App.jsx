@@ -3,7 +3,7 @@ import './App.css';
 
 // 1. Оновлена база товарів (зміни посилання в `image`, якщо знайдеш кращі фото)
 const PRODUCTS = [
-  { id: 1, name: 'Еко-змішувач Grohe', desc: 'Знижує витрату води на 50% без втрати комфорту.', price: 3500, hasEco: true, category: 'faucet', image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80', specs: ['Витрата води: 5 л/хв', 'Матеріал: Латунь', 'Покриття: Хром', 'Гарантія: 5 років'] },
+  { id: 1, name: 'Еко-змішувач Grohe', desc: 'Знижує витрату води на 50% без втрати комфорту.', price: 3500, hasEco: true, category: 'faucet', image: '/images/kran.png', specs: ['Витрата води: 5 л/хв', 'Матеріал: Латунь', 'Покриття: Хром', 'Гарантія: 5 років'] },
   { id: 2, name: 'Душова система Hansgrohe', desc: 'Тропічний душ з термостатом (захист від опіків).', price: 8200, category: 'shower', image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=400&q=80', specs: ['Діаметр лійки: 240 мм', 'Термостат: Є', 'Матеріал: Латунь/Пластик'] },
   // ОСЬ ТУТ МОЖЕШ ЗАМІНИТИ ПОСИЛАННЯ ДЛЯ БОЙЛЕРА (зараз стоїть заглушка placehold.co)
   { id: 3, name: 'Бойлер Bosch 80л', desc: 'Енергозберігаючий водонагрівач (сухий тен).', price: 9100, category: 'heater', image: 'https://vencon.ua/uploads/goods/132096/main/boyler-bosch-tronic-2000-t-es-080-5-2000w-bo-m1x-ktwvb.jpg', specs: ['Об\'єм: 80 літрів', 'Тип тена: Сухий', 'Потужність: 2000 Вт'] },
